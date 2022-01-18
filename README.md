@@ -1,5 +1,5 @@
 # 前言
-这是一个交叉编译仓库，参考了[pcl for android](https://github.com/bashbug/pcl-for-android)，最终生成linux的交叉编译库。
+这是一个交叉编译仓库，参考了[pcl for android](https://github.com/bashbug/pcl-for-android)，本文件最终生成静态库，动态库请自行修改
 
 # 使用
 1. 修改`conan-profiles/linux`的第8 第9行，设置cxx_compiler_path、c_compiler_path
