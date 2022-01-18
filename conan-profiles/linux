@@ -1,0 +1,10 @@
+include(default)
+
+[settings]
+os=Linux
+arch=armv8
+
+[env]
+cxx_compiler_path=/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++
+c_compiler_path=/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
+install_path=/home/robot/share/pcl_for_linux/install_release
